@@ -1,0 +1,26 @@
+.column {
+  width: 300px;
+  float: left;
+  margin: 15px;
+
+}
+.column h2 {
+  color: blue;
+}
+
+img {
+  width: 300px;
+  height: auto;
+  margin: 15px;
+}
+
+body {
+  color: pink;
+}
+.header h1 {
+  background-color: red;
+}
+.body {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
