@@ -1,9 +1,4 @@
-.column {
-  width: 300px;
-  float: left;
-  margin: 15px;
 
-}
 .column h2 {
   color: blue;
 }
@@ -23,4 +18,41 @@ body {
 .body {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1000px){
+  .column {
+    width: 300px;
+    float: left;
+    margin: 15px;
+
+  }
+}
+@media screen and (max-width: 999px) and (min-width: 700px){
+  body{
+    background-color: #32CD32;
+  }
+  .column {
+    width: 150px;
+    float: left;
+    margin: 10px;
+
+  }
+  img{
+    width: 150px;
+    height: auto;
+    margin: 15px;
+  }
+}
+@media screen and (max-width: 480px){
+  .column {
+    width: 150px;
+    float: left;
+    margin: 10px;
+  }
+  img{
+  width: 50px;
+  height: auto;
+  margin: 15px;
+ }
 }
